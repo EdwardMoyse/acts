@@ -32,7 +32,7 @@ class SurfaceBounds;
 ///  @class LineSurface
 ///
 ///  Base class for a linear surfaces in the TrackingGeometry
-///  to describe dirft tube, straw like detectors or the Perigee
+///  to describe drift-tube/straw like detectors or the Perigee.
 ///  It inherits from Surface.
 ///
 ///  @note It leaves the type() method virtual, so it can not be instantiated
