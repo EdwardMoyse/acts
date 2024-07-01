@@ -53,9 +53,9 @@ class LineBounds : public SurfaceBounds {
   /// @return this returns a copy of the internal values
   std::vector<double> values() const final;
 
-  /// Inside check for the bounds object driven by the boundary check directive
+  /// Inside check for the bounds object driven by the boundary check directive.
   /// Each Bounds has a method inside, which checks if a LocalPosition is inside
-  /// the bounds  Inside can be called without/with tolerances.
+  /// the bounds. Inside can be called without/with tolerances.
   ///
   /// @param lposition Local position (assumed to be in right surface frame)
   /// @param bcheck boundary check directive
